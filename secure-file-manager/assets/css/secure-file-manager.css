@@ -1,0 +1,39 @@
+body {
+    background-color: #0c356a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#secure-login-form input {
+    background-color: #0c356a;
+    color: #fff;
+}
+
+#secure-login-form button {
+    background-color: #f05822;
+    transition: background-color 0.3s ease;
+}
+
+#secure-login-form button:hover {
+    background-color: #f05822;
+}
+/* Transiciones suaves */
+#loading-animation, #file-list {
+    transition: opacity 1s ease-in-out;
+}
+
+/* Barra de progreso */
+.progress-bar-container {
+    background-color: #0c356a;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
+}
+
+/* Botón de cerrar sesión */
+.logout-button:hover {
+    background-color: #f05822;
+}
